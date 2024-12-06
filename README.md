@@ -14,12 +14,12 @@ nodejs ^20
 
 ## ⬇️ Installing
 * Clone the git repository locally.  
-`[git clone https://github.com/jlvlg/rent-a-film-api](https://github.com/jlvlg/car-dealer-app)`
+`git clone https://github.com/jlvlg/rent-a-film-api`
 * Browse into the downloaded repository.  
 `cd car-dealer-app`
 * Install the required packages.  
 `npm install`
 * Build the platform.  
 `npm run build`
-* Start the platform.
+* Start the platform.  
 `npm run start`
