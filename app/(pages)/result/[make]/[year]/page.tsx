@@ -36,12 +36,15 @@ export async function generateStaticParams() {
   const makes = await GetMakesForVehicleType();
   const years = Array.from(
     { length: new Date().getFullYear() - 2014 },
-    (_, i) => ({ value: i + 2015, label: i + 2015 }),
+    (_, i) => i + 2015,
   );
 
   return makes
     .map((make) =>
-      years.map((year) => ({ make: make.toString(), year: year.toString() })),
+      years.map((year) => ({
+        make: make.MakeId.toString(),
+        year: year.toString(),
+      })),
     )
     .flat();
 }
