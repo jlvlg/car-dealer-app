@@ -19,7 +19,5 @@ nodejs ^20
 `cd car-dealer-app`
 * Install the required packages.  
 `npm install`
-* Build the platform.  
-`npm run build`
-* Start the platform.  
-`npm run start`
+* Start the app.  
+`npm run dev`
